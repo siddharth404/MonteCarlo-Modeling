@@ -203,7 +203,7 @@ parameter_dict_distribution = {
 }
 
 
-col11, col12, col13 = st.beta_columns(3)
+col11, col12, col13 = st.columns(3)
 
 
 with col11:
@@ -284,7 +284,7 @@ with col13:
         parameter_dict_distribution['tax rate'] = 'uniform'
 
     
-col21, col22, col23 = st.beta_columns(3)
+col21, col22, col23 = st.columns(3)
 
 with col21:
     st.subheader('Net capex/sales')
@@ -387,7 +387,7 @@ plt.hist(equity_value_list, bins = 50, color = '#006699', edgecolor = 'black')
 st.pyplot(fig1)
 
 
-col31, col32 = st.beta_columns(2)
+col31, col32 = st.columns(2)
 with col31:
     fig2 = plt.figure()
     x = range(6)[1:6]
