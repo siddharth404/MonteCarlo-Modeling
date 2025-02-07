@@ -147,7 +147,7 @@ class Company:
 
 st.title('Monte Carlo Valuation App')
 
-with st.beta_expander('How to use'):
+with st.expander('How to use'):
     st.write('This application allows you to conduct a **probabilistic** \
         valuation of companies you are interested in. Please enter the \
         **stock ticker** of your company. Subsequently, the program will \
